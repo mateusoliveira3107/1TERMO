@@ -1,0 +1,1 @@
+print("5 elevado a potência 3 é", (5**3))
