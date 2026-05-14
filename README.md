@@ -1,2 +1,8 @@
 # 1TERMO
-Material de aula - LOPAL / SOP / LER / ARI
+Material de Aula - LOPAL / SOP / LER / ARI
+
+# LOPAL
+Linguagem de Programação em Python
+
+## SOP
+Sistemas Operacionais Linux, Windows e iOS
