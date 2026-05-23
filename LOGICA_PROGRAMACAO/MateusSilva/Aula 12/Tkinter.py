@@ -70,21 +70,13 @@ janela.configure(bg="#000279")
 janela.geometry("1000x600")
 
 def mensagem_erro():
-    messagebox.showerror("Valor inválido")
+    messagebox.showerror("Valor inválido", "Insira apenas números inteiros")
 def calcular_media():
         try:
             n1 = int(numero1.get())
-            if n1 == "":
-                mensagem_erro()
-                return
             n2 = int(numero2.get())
-            if n2 == "":
-                mensagem_erro()
-                return
             n3 = int(numero3.get())
-            if n3 == "":
-                mensagem_erro()
-                return
+            
         except ValueError:
                mensagem_erro()
                return
