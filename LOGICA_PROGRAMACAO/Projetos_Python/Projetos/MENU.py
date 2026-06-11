@@ -33,5 +33,3 @@ def menu():
     janela.mainloop()
 
 menu()
-
-
